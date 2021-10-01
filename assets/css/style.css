@@ -1,9 +1,11 @@
+/* Set some universal stylings */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
+/* Start - Style of the body and header */
 body {
   background-color: #d9dcd6;
 }
@@ -50,6 +52,8 @@ a {
 p {
   font-size: 16px;
 }
+
+
 
 .hero {
   height: 800px;
@@ -121,7 +125,10 @@ p {
   font-size: 36px;
 }
 
-.footer {
+/* End - Style of the body and header */
+
+/* Footer styling*/
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -129,6 +136,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
